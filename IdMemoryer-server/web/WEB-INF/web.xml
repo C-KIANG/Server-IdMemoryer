@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <servlet>
+        <!-- servlet的内部名称，自定义 -->
+        <servlet-name>LoginServlet</servlet-name>
+        <!-- servlet的类全名：包名+类名 -->
+        <servlet-class>com.voidck.Servlet.LoginServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <!-- servlet的映射配置 -->
+    <servlet-mapping>
+        <!-- servlet的内部名称，一定要和上面的内部名称保持一致 -->
+        <servlet-name>LoginServlet</servlet-name>
+        <!-- servlet的映射路径（访问serclet的名称 -->
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <!-- servlet的内部名称，自定义 -->
+        <servlet-name>RegisterServlet</servlet-name>
+        <!-- servlet的类全名：包名+类名 -->
+        <servlet-class>com.voidck.Servlet.RegisterServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <!-- servlet的映射配置 -->
+    <servlet-mapping>
+        <!-- servlet的内部名称，一定要和上面的内部名称保持一致 -->
+        <servlet-name>RegisterServlet</servlet-name>
+        <!-- servlet的映射路径（访问serclet的名称 -->
+        <url-pattern>/RegisterServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <!-- servlet的内部名称，自定义 -->
+        <servlet-name>PhotoServlet</servlet-name>
+        <!-- servlet的类全名：包名+类名 -->
+        <servlet-class>com.voidck.Servlet.PhotoServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <!-- servlet的映射配置 -->
+    <servlet-mapping>
+        <!-- servlet的内部名称，一定要和上面的内部名称保持一致 -->
+        <servlet-name>PhotoServlet</servlet-name>
+        <!-- servlet的映射路径（访问serclet的名称 -->
+        <url-pattern>/PhotoServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <!-- servlet的内部名称，自定义 -->
+        <servlet-name>SelectServlet</servlet-name>
+        <!-- servlet的类全名：包名+类名 -->
+        <servlet-class>com.voidck.Servlet.SelectServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <!-- servlet的映射配置 -->
+    <servlet-mapping>
+        <!-- servlet的内部名称，一定要和上面的内部名称保持一致 -->
+        <servlet-name>SelectServlet</servlet-name>
+        <!-- servlet的映射路径（访问serclet的名称 -->
+        <url-pattern>/SelectServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <!-- servlet的内部名称，自定义 -->
+        <servlet-name>Forget1Servlet</servlet-name>
+        <!-- servlet的类全名：包名+类名 -->
+        <servlet-class>com.voidck.Servlet.Reset1Servlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <!-- servlet的映射配置 -->
+    <servlet-mapping>
+        <!-- servlet的内部名称，一定要和上面的内部名称保持一致 -->
+        <servlet-name>Forget1Servlet</servlet-name>
+        <!-- servlet的映射路径（访问serclet的名称 -->
+        <url-pattern>/Forget1Servlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <!-- servlet的内部名称，自定义 -->
+        <servlet-name>Forget2Servlet</servlet-name>
+        <!-- servlet的类全名：包名+类名 -->
+        <servlet-class>com.voidck.Servlet.Reset2Servlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <!-- servlet的映射配置 -->
+    <servlet-mapping>
+        <!-- servlet的内部名称，一定要和上面的内部名称保持一致 -->
+        <servlet-name>Forget2Servlet</servlet-name>
+        <!-- servlet的映射路径（访问serclet的名称 -->
+        <url-pattern>/Forget2Servlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <!-- servlet的内部名称，自定义 -->
+        <servlet-name>ManageServlet</servlet-name>
+        <!-- servlet的类全名：包名+类名 -->
+        <servlet-class>com.voidck.Servlet.ManageServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <!-- servlet的映射配置 -->
+    <servlet-mapping>
+        <!-- servlet的内部名称，一定要和上面的内部名称保持一致 -->
+        <servlet-name>ManageServlet</servlet-name>
+        <!-- servlet的映射路径（访问serclet的名称 -->
+        <url-pattern>/ManageServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <!-- servlet的内部名称，自定义 -->
+        <servlet-name>AddServlet</servlet-name>
+        <!-- servlet的类全名：包名+类名 -->
+        <servlet-class>com.voidck.Servlet.AddServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <!-- servlet的映射配置 -->
+    <servlet-mapping>
+        <!-- servlet的内部名称，一定要和上面的内部名称保持一致 -->
+        <servlet-name>AddServlet</servlet-name>
+        <!-- servlet的映射路径（访问serclet的名称 -->
+        <url-pattern>/AddServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <!-- servlet的内部名称，自定义 -->
+        <servlet-name>UpdateServlet</servlet-name>
+        <!-- servlet的类全名：包名+类名 -->
+        <servlet-class>com.voidck.Servlet.UpdateServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <!-- servlet的映射配置 -->
+    <servlet-mapping>
+        <!-- servlet的内部名称，一定要和上面的内部名称保持一致 -->
+        <servlet-name>UpdateServlet</servlet-name>
+        <!-- servlet的映射路径（访问serclet的名称 -->
+        <url-pattern>/UpdateServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <!-- servlet的内部名称，自定义 -->
+        <servlet-name>DeleteServlet</servlet-name>
+        <!-- servlet的类全名：包名+类名 -->
+        <servlet-class>com.voidck.Servlet.DeleteServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <!-- servlet的映射配置 -->
+    <servlet-mapping>
+        <!-- servlet的内部名称，一定要和上面的内部名称保持一致 -->
+        <servlet-name>DeleteServlet</servlet-name>
+        <!-- servlet的映射路径（访问serclet的名称 -->
+        <url-pattern>/DeleteServlet</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>
